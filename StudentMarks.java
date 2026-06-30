@@ -146,3 +146,4 @@ public class StudentMarks {
     }
 }
 System.out.println("Git is awesome!");
+System.out.println("GitHub Test");
