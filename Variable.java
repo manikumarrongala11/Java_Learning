@@ -1,5 +1,2 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.print("hwllo world");
-    }
-}
+//here the date is 6 th of july day 1
+today we 
