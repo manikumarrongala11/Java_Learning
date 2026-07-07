@@ -16,7 +16,7 @@ public class IfStatements{
             System.out.println("remaining balance: " + balance);
         } */
 
-            int age = 30;
+            int age = 40;
             boolean hasID = true;
 
             if(age<0 || age>120){
@@ -28,7 +28,7 @@ public class IfStatements{
 
 
             }
-            
+
             else if(age>=18 && !hasID)
             {
 
