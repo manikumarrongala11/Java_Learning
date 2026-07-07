@@ -1,7 +1,7 @@
 public class IfStatements{
     public static void main(String[] args){
 
-        /* double balance = 5000;
+         double balance = 5000;
         double withdrawAmount = -100;
 
         if(withdrawAmount<=0){
@@ -14,7 +14,7 @@ public class IfStatements{
             balance = balance - withdrawAmount;
             System.out.println("Transastion Successful ");
             System.out.println("remaining balance: " + balance);
-        } */
+        } 
 
             int age = 40;
             boolean hasID = true;
