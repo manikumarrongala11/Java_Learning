@@ -6,7 +6,7 @@ public class MathClass {
         double result;
 
         result = Math.pow(2,5);
-        result = Math.pow(2,4);
+        
         result = Math.abs(-5);
         result = Math.sqrt(9);
         result = Math.round(3.14);
