@@ -8,7 +8,7 @@ public class IfStatements{
             System.out.print("Invalid Amount");
         }
         else if(withdrawAmount>balance){
-            System.out.println("Insufficient Balance");
+            System.out.println("Insufficient Amount");
         }
         else{
             balance = balance - withdrawAmount;
