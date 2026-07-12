@@ -2,16 +2,16 @@ public class IfStatements{
     public static void main(String[] args){
 
          double balance = 5000;
-        double withdrawAmount = -100;
+        double withdrawbalance = -100;
 
-        if(withdrawAmount<=0){
+        if(withdrawbalance<=0){
             System.out.print("Invalid Amount");
         }
-        else if(withdrawAmount>balance){
+        else if(withdrawbalance>balance){
             System.out.println("Insufficient Amount");
         }
         else{
-            balance = balance - withdrawAmount;
+            balance = balance - withdrawbalance;
             System.out.println("Transastion Successful ");
             System.out.println("remaining balance: " + balance);
         } 
