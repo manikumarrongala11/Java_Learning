@@ -22,7 +22,7 @@ public static void main(String[] args){
     years = sc.nextInt();
 
     amount = principle * Math.pow(1 + rate / timesCompound, timesCompound);
-    System.out.print("The amount After " + years + "is: $" + amount);
+    System.out.print("The actual amount After " + years + "is: $" + amount);
 
 
 
