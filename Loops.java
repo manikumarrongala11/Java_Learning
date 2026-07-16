@@ -33,22 +33,9 @@ public class Loops{
 */
 
 
-        int i = 1;
-
-        while (i <= 50) {
-
-            if (i % 5 == 0) {
-                System.out.println("Multiple of 5: " + i);
-            } else {
-                System.out.println(i);
-            }
-
-            i++;
-        }
-
-    
-
  
+
+
     }
       }
 
