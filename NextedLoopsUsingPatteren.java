@@ -1,4 +1,4 @@
-public class Patteren {
+public class NextedLoopsUsingPatteren {
     public static void main(String[] args){
         
     }
