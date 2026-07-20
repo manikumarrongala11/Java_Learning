@@ -123,16 +123,69 @@ for(int i = 1; i<=n; i++){
     }
     System.out.println();
         
-} */
+} 
 int n = 7;
 int m = 7;
 for(int i = 1; i<=n; i++){
     for(int j = 1; j<=m; j++){
-        if(i ==1 || j == 1 || i == n || j == m || i == j || i + j == n + 1 ){
+        if(i ==1 || j == 1 || i == n || j == m || i ==3 && (j >=3 && j<=5) || j ==3 &&(i >= 3 && i<=5) || i ==5 && (j>=3 && j<=5) || j ==5 &&(i>=3 && i<=5) || i ==6 &&(j >=4 && j<=4) )  {
             System.out.print("*");
         }else{
             System.out.print(" ");
         }
+    }
+    System.out.println();
+} 
+// Pyramid
+ int  n = 5;
+ for (int i =1; i<=n; i++){
+    for(int j = 1; j<=n -i; j++){
+                System.out.print(" ");
+
+
+    }
+    
+ 
+ for(int j =1; j<= 2 * i -1; j++){
+        System.out.print("*");
+
+
+ }
+    System.out.println();
+} 
+// inverted pyramid
+int n = 5;
+
+for(int i = 1; i<=n; i++){
+    for(int j = 1; j <= i -1; j++ ){
+        System.out.print(" ");
+    }
+    for(int j =1; j<=2 *(n -i)+1 ; j++){
+        System.out.print("*");
+    }
+    System.out.println();
+} */
+// dimomd pyramid
+
+int n = 5; 
+//outer loop
+for(int i = 1; i<=n; i++){
+    //spaces
+    for(int j = 1; j<= n -i; j++){
+        System.out.print(" ");
+    }
+    for(int j= 1; j<= (2 *i) -1; j++ ){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+//inverted
+for(int i =2; i<=n; i++){
+    for(int j = 1; j<=i -1; j++){
+        System.out.print(" ");
+    }
+    for(int j = 1; j<= 2 *(n-i ) +1; j++){
+        System.out.print("*");
     }
     System.out.println();
 }
