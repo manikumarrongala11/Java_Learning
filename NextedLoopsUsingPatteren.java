@@ -164,7 +164,7 @@ for(int i = 1; i<=n; i++){
         System.out.print("*");
     }
     System.out.println();
-} */
+} 
 // dimomd pyramid
 
 int n = 5; 
@@ -188,7 +188,36 @@ for(int i =2; i<=n; i++){
         System.out.print("*");
     }
     System.out.println();
+} 
+    //Hollow Diamond Pattern
+
+
+int n =5;
+int m = 9;
+for(int i =1; i<=n; i++){
+    for(int j =1; j<=m; j++ ){
+        if(i ==1 && j==5 || i ==2 && (j==4 || j==6) || i == 3 && (j == 3 || j == 7) || i == 4 && (j == 2 || j == 8) || i==5 && (j ==1 || j ==9) ){
+            System.out.print("*");
+        }else{
+            System.out.print(" ");
+        }
+        
+
+    }
+    System.out.println();
+    
 }
+for(int i = 2; i <=n; i++){
+    for(int j = 1; j<=m; j++){
+        if( i ==2 && (j == 2 || j ==8) || i==3 && (j == 3 || j == 7) || i ==4 && (j ==4 || j ==6) || i==5 && j ==5){
+            System.out.print("*");
+        }else{
+            System.out.print(" ");
+        }
+    }
+    System.out.println();
+}
+*/
 }
     }
 
