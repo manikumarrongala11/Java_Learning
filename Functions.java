@@ -5,7 +5,7 @@ public class Functions {
     //operations
     //public static returnType functionName(parameters) {
     // code
-}
+
     // 1. Print a given name in a function
 
     public static void printMyName(String name){
